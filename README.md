@@ -19,8 +19,14 @@ This script for the [Argon ONE Pi 4 Raspberry Pi Case](https://www.argon40.com/a
    ```
    curl https://download.argon40.com/argon1.sh | bash
    ```
+   
+4. (In case of error 403 on argon40) If domain argon40 gives a error try this from github
 
-4. Reboot.
+   ```
+   curl https://raw.githubusercontent.com/lucaslucian/Argon40-ArgonOne-Script/master/argon1.sh | bash
+   ```
+   
+6. Reboot.
 
 ## Usage Instructions
 
