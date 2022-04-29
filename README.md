@@ -19,11 +19,19 @@ This script for the [Argon ONE Pi 4 Raspberry Pi Case](https://www.argon40.com/a
    ```
    curl https://download.argon40.com/argon1.sh | bash
    ```
+   For Libreelec
+   ```
+   curl https://download.argon40.com/argonone-setup-libreelec.sh | bash
+   ```
    
 4. (In case of error 403 on argon40) If domain argon40 gives a error try this from github
 
    ```
    curl https://raw.githubusercontent.com/lucaslucian/Argon40-ArgonOne-Script/master/argon1.sh | bash
+   ```
+   For Libreelec
+   ```
+   curl https://raw.githubusercontent.com/lucaslucian/Argon40-ArgonOne-Script/master/argonone-setup-libreelec.sh | bash
    ```
    
 6. Reboot.
